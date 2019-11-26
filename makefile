@@ -1,0 +1,2 @@
+arc_shell: main.c shell.c shell_execute.c shell_execute_builtin.c shell_history.c shell_ls.c shell_parse.c shell_pinfo.c
+	gcc -o arc_shell main.c shell.c shell_execute.c shell_execute_builtin.c shell_history.c shell_ls.c shell_parse.c shell_pinfo.c -I.
